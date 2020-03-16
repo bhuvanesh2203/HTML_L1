@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Stock Trading</title>
+
+<style>
+
+table
+{
+
+border-style:double;
+border-width:thick;
+
+    
+}
+
+td ,th
+{
+border: 2px solid black;
+border-collapse: collapse;
+} 
+
+input {
+  width:80%;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<table>
+		
+<tr>
+	
+<th>TICKER</th>
+			
+<th>PRICE</th>
+	
+	</tr>
+	
+<tr>
+			
+<td>WIPRO</td>
+			
+<td>298.45</td>
+		
+</tr>
+	
+<tr>
+			
+<td>INFY</td>
+			
+<td>949.95</td>
+		
+</tr>
+
+<tr>
+
+<td>TCS</td>
+			
+<td>2713.70</td>
+		
+</tr>
+	
+<tr>
+			
+<td>TECHM</td>
+			
+<td>485.85</td>
+		
+</tr>
+
+</table>
+	
+<form>
+		
+<h2>Stock Trading</h2>
+		
+<table>
+
+<tr>
+				
+<td>Ticker:</td>
+				
+<td><input type="text" name="stockquote" placeholder="Enter Stockquote" required></td>
+			
+</tr>
+	
+<tr>
+				
+<td>Quantity:</td>
+				
+<td><input type="number" name="quantity" placeholder="Enter Quantity" min="10" max="100" step="10" required></td>
+			
+</tr>
+
+<tr>
+				
+<td><input type="submit" value="Submit"></td>
+			
+</tr>
+
+</table>
+
+</form>
+
+</body>
+
+</html>

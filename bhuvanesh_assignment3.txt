@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+<title>
+Awesome Online Videos
+
+</title>
+
+</head>
+
+<style>
+
+h1
+{text-align:center;
+ color: RED;
+}
+
+video
+{ display:block; 
+margin-left:auto;
+margin-right:auto;
+}
+
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+</style>
+
+<body>
+
+<h1>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-bWkY7Yl2JJ-_pSRNJ3VOw0sMrW3fi4TT9_rShCUD9YNDXCDUJw&s" alt="logo"
+ style="float: center; width: 100px; height: 100px;"><br>Awesome Online Videos</h1>
+
+<br>
+<center>
+
+<div class="footer">
+
+<button type="button" onclick="playPause()">play/Pause</button></center>
+</div>
+<video id="video1" width="600" height="440">
+
+<source src="https://s3.amazonaws.com/freestock-transcoded-videos-prod/transcoded/freestock_v706525.mp4" type="video/mp4">
+<script>
+var myVideo = document.getElementById("video1");
+function playPause() { 
+if (myVideo.paused) 
+myVideo.play(); 
+else 
+myVideo.pause();}
+</script>
+
+</script> 
+
+</body>
+
+</html> 
